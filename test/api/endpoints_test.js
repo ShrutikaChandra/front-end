@@ -36,7 +36,7 @@
     });
 
     describe("addressUrl", function() {
-      it("points to the proper endpoint", function() {
+      it("points to the endpoint", function() {
         expect(endpoints.addressUrl).to.equal("http://user/addresses");
       });
     });
